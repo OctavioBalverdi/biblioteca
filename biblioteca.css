@@ -1,0 +1,154 @@
+/* Estilo del Lobby del Usuario  */
+#menuProyecto{
+    background: #e49709;
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    background: linear-gradient(to right, #2F0743, #41295a);
+}
+
+#lobby{
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+    border-radius: 50px;
+    align-content: center;
+    width: 700px;
+    height: 600px;
+    margin-left: 25%;
+    border-color: rgb(0, 0, 0);
+    border: solid;
+}
+
+.usuario, .contraseña, .ingresar{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+input, button{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#ingresar{
+    cursor: pointer;
+    background-color: #6f00ff;
+    color: white;
+    margin-top: 15px;
+    margin-left: 265px;
+    
+}
+
+.usuarioProyecto{
+    margin-top: 15px;
+}
+
+#usuariotxt{
+    font-size: 30px;
+    color: white;
+    margin-left: 170px;
+}
+
+#imagenProyecto{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    margin-left: 225px;
+    border-radius: 50px;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilo del Menu */
+
+body{
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url('../img/biblioteca.png');
+}
+
+
+.container{
+    background: rgb(255, 225, 225,0.1);
+    backdrop-filter: blur(20px);
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 2px rgb(255, 225, 225,05);
+    padding-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    overflow: hidden;
+}
+
+#lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+    background-color: #4bdf49;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+#lista li{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+    overflow: hidden;
+    margin-inline: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+#lista li:hover{
+    background: #a8d8f8;
+    transition: 0.3s;
+    transform: rotate(5deg);
+    border-radius: 10px;  
+}
+
+
+.alumnos, .libros, .prestamos{
+    border: solid #4bdf49 6px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.alu{
+    margin-top: 10px;
+    margin-left: 125px;
+}
+
+.lib{
+    margin-top: 10px;
+    margin-left: 230px;
+
+}
+.pres{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.agr, .act, .elim{
+    margin-left: 5px;
+}
+
+#lisLib, #lisAlu, #lisPres {
+    background-color: rgb(213, 245, 240);
+    width: 1000px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: solid rgb(106, 205, 223,05);
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.7;
+    backdrop-filter: blur(20px);
+}

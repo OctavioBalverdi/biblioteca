@@ -1,0 +1,80 @@
+{
+    "alumnos": [
+      {
+        "dni": "37656979",
+        "nombre": "Paula Peralta",
+        "direccion": "Yerba Buena",
+        "id": 1
+      },
+      {
+        "dni": "41495011",
+        "nombre": "Lucas Peralta",
+        "direccion": "Lomas de Tafi",
+        "id": 2
+      },
+      {
+        "nombre": "Facundo",
+        "direccion": "B Kennedy",
+        "dni": "39456023",
+        "id": 3
+      },
+      {
+        "nombre": "Andrea Sanchez",
+        "direccion": "Barrio Las Americas",
+        "dni": "22530371",
+        "id": 4
+      }
+    ],
+    "libros": [
+      {
+        "titulo": "Harry Potter 2",
+        "autor": "JK Rowling",
+        "id": 1
+      },
+      {
+        "titulo": "Cinco semanas en globo",
+        "autor": "Julio Verne",
+        "id": 2
+      },
+      {
+        "titulo": "El Resplandor",
+        "autor": "Stephen King",
+        "id": 3
+      },
+      {
+        "titulo": "100 años de soledad",
+        "autor": "Gabriel Garcia Marquez",
+        "id": 4
+      }
+    ],
+    "prestamos": [
+      {
+        "idAlu": "1",
+        "idLibro": null,
+        "fechaEnt": "2023-08-15",
+        "fechaDev": "2023-08-16",
+        "id": 1
+      },
+      {
+        "fechaEnt": "2023-08-16",
+        "fechaDev": "2023-08-25",
+        "idLibro": "1",
+        "idAlu": "1",
+        "id": 2
+      },
+      {
+        "idAlu": "1",
+        "idLibro": 2,
+        "fechaEnt": "2023-08-19",
+        "fechaDev": "2023-08-29",
+        "id": 3
+      },
+      {
+        "idAlu": "3",
+        "idLibro": 4,
+        "fechaEnt": "2024-06-26",
+        "fechaDev": "2024-06-28",
+        "id": 4
+      }
+    ]
+  }
